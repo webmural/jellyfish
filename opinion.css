@@ -1,14 +1,14 @@
 @media (color) {
   ::selection { background: darkviolet; color: seashell }
   .flora :not(.nativa) { color: inherit }
-  .sol.sol { background: gold; color: #090909 }
+  .sol.sol { background: violet; color: #090909 }
   .luna.luna { background: darkslategray; color: seashell }
   .jugo.jugo { background: hotpink; color: #090909 }
 }
 
 :any-link {
   text-decoration-style: double;
-  box-shadow: 0 1ex 1em 0 violet;
+  box-shadow: 0 1ex 1em 0 darkviolet;
 }
 
 :focus {
